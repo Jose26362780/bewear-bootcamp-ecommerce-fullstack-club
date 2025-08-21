@@ -2,13 +2,14 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { ShoppingBasketIcon } from "lucide-react";
+import Image from "next/image";
 
 import { getCart } from "@/actions/get-cart";
 import { Button } from "@/components/ui/button";
 import { formatCentsToBRL } from "@/app/helpers/money";
 
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
+import { ScrollArea } from "../ui/scroll-area";
+import { Separator } from "../ui/separator";
 import {
   Sheet,
   SheetContent,
