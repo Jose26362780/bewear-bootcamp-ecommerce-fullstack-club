@@ -7,10 +7,10 @@ import { Header } from "@/components/common/header";
 import ProductList from "@/components/common/product-list";
 import { db } from "@/db";
 import { productTable, productVariantTable } from "@/db/schema";
-import { formatCentsToBRL } from "@/app/helpers/money";
+import { formatCentsToBRL } from "@/helpers/money";
 
-import ProductActions from "@/app/product-variant/[slug]/components/product-actions";
-import VariantSelector from "@/app/product-variant/[slug]/components/variant-selector";
+import ProductActions from "./components/product-actions";
+import VariantSelector from "./components/variant-selector";
 
 interface ProductVariantPageProps {
   params: Promise<{ slug: string }>;

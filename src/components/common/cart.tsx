@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import { getCart } from "@/actions/get-cart";
 import { Button } from "@/components/ui/button";
-import { formatCentsToBRL } from "@/app/helpers/money";
+import { formatCentsToBRL } from "@/helpers/money";
 
 import { ScrollArea } from "../ui/scroll-area";
 import { Separator } from "../ui/separator";

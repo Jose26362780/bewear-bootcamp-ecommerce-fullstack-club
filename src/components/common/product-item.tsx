@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { productTable, productVariantTable } from "@/db/schema";
-import { formatCentsToBRL } from "@/app/helpers/money";
+import { formatCentsToBRL } from "@/helpers/money";
 import { cn } from "@/lib/utils";
 
 interface ProductItemProps {

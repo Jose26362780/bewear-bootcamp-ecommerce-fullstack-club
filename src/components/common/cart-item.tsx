@@ -1,7 +1,7 @@
 import { MinusIcon, PlusIcon, TrashIcon } from "lucide-react";
 import Image from "next/image";
 
-import { formatCentsToBRL } from "@/app/helpers/money";
+import { formatCentsToBRL } from "@/helpers/money";
 
 import { Button } from "../ui/button";
 
